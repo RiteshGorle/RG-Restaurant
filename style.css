@@ -293,6 +293,21 @@ li{
     }
 
 
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+  #my-content { display: none; }  /* hide it elsewhere */
+
+}
+
+@media screen and (min-width: 1081px) and (max-width: 4000px) {
+  #my-content { display:block; }  /* show it on big screens */
+  
+}
+
+
+
+
+
 /******************************************/
 /*      SECTION:07  LIQUOR BAR START      */
 /******************************************/
@@ -394,6 +409,21 @@ li{
               0 0 50px yellow,
               0 0 100px yellow;
 }
+
+
+
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+  #why-content { display: none; }  /* hide it elsewhere */
+
+}
+
+@media screen and (min-width: 1081px) and (max-width: 4000px) {
+  #why-content { display:block; }  /* show it on big screens */
+  
+}
+
+
+
 
 
 /*************************************/
@@ -711,8 +741,4 @@ li{
     padding: 0;
   }
 }
-
-
-
-
 
